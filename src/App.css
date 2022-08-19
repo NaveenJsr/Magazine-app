@@ -50,6 +50,15 @@ main {
   color: white;
 }
 
+.header-break{
+  background-color: red;
+  height: 5px;
+  width: auto;
+  position: sticky;
+  top: 120px;
+  z-index: 10;
+}
+
 /*header end*/
 
 
@@ -59,9 +68,9 @@ main {
   position: sticky;
   background: #ca2c92;
   color: white;
-  height: 100vh;
+  height: auto;
   overflow-y: auto;
-  width: 200px;
+  width: 225px;
 
 }
 
@@ -156,4 +165,21 @@ main {
 .menu_container .link {
   padding-left: 20px;
   border-bottom: #fff 0.5px solid;
+}
+
+/*home*/
+
+.page-style{
+  display: flex;
+  justify-content : center;
+  margin-left : auto;
+  margin-right : auto;
+  max-width: 1500px;
+
+}
+
+.home_row{
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
 }

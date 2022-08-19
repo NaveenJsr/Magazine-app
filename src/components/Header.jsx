@@ -28,11 +28,13 @@ function Header() {
                             alt= "Loading..."
                             height="110px"
                         />
+                        
                                     
                 </div>
                 
-            
         </nav>
+        <div className='header-break'></div>
+        
     </>
   )
 }
