@@ -10,7 +10,7 @@ import { AiFillContacts } from "react-icons/ai";
 import SidebarMenu from "./SidebarMenu";
 const routes = [
   {
-    path: "college-magazine",
+    path: "college-magazine/",
     name: "Home",
     icon: <FaHome />,
   },
