@@ -26,18 +26,18 @@ function App() {
       <Router>
         <SideBar>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/NewsAndEvent" element={<NewsAndEvent />} />
-            <Route path="/Trends" element={<CollegeTrends />} />
-            <Route path="/Sports" element={<Sports />} />
-            <Route path="/clubs/ArtsAndPaintings" element={<ArtsAndPainting />} />
-            <Route path="/clubs/Photography" element={<Photography />} />
-            <Route path="/clubs/ScienceAndTech" element={<ScienceAndTech />} />
-            <Route path="/Writings/Poems" element={<Poems />} />
-            <Route path="/Writings/Articles" element={<Articles />} />
-            <Route path="/Writings/Nanotales" element={<Nanotales />} />
-            <Route path="/Writings/Stories" element={<Stories />} />
-            <Route path="/AboutUs" element={<AboutUs />} />
+            <Route path="college-magazine/" element={<Home />} />
+            <Route path="college-magazine/NewsAndEvent" element={<NewsAndEvent />} />
+            <Route path="college-magazine/Trends" element={<CollegeTrends />} />
+            <Route path="college-magazine/Sports" element={<Sports />} />
+            <Route path="college-magazine/clubs/ArtsAndPaintings" element={<ArtsAndPainting />} />
+            <Route path="college-magazine/clubs/Photography" element={<Photography />} />
+            <Route path="college-magazine/clubs/ScienceAndTech" element={<ScienceAndTech />} />
+            <Route path="college-magazine/Writings/Poems" element={<Poems />} />
+            <Route path="college-magazine/Writings/Articles" element={<Articles />} />
+            <Route path="college-magazine/Writings/Nanotales" element={<Nanotales />} />
+            <Route path="college-magazine/Writings/Stories" element={<Stories />} />
+            <Route path="college-magazine/AboutUs" element={<AboutUs />} />
 
             <Route path="*" element={<> not found</>} />
           </Routes>

@@ -10,42 +10,42 @@ import { AiFillContacts } from "react-icons/ai";
 import SidebarMenu from "./SidebarMenu";
 const routes = [
   {
-    path: "/",
+    path: "college-magazine",
     name: "Home",
     icon: <FaHome />,
   },
   {
-    path: "/NewsAndEvent",
+    path: "college-magazine/NewsAndEvent",
     name: "News And Events",
     icon: <BiNews />,
   },
   {
-    path: "/Trends",
+    path: "college-magazine/Trends",
     name: "Trends",
     icon: <BiTrendingUp />,
   },
   {
-    path: "/Sports",
+    path: "college-magazine/Sports",
     name: "Sports",
     icon: <MdSportsBasketball />,
   },
   {
-    path: "/",
+    path: "college-magazine/Clubs",
     name: "Clubs",
     icon: <SiClubhouse />,
     subRoutes: [
       {
-        path: "/clubs/ArtsAndPaintings",
+        path: "college-magazine/clubs/ArtsAndPaintings",
         name: "Arts and Paintings ",
         icon: <FaPaintBrush />,
       },
       {
-        path: "/clubs/Photography",
+        path: "college-magazine/clubs/Photography",
         name: "Photography",
         icon: <MdInsertPhoto />,
       },
       {
-        path: "/clubs/ScienceAndTech",
+        path: "college-magazine/clubs/ScienceAndTech",
         name: "Science And Tech",
         icon: <DiTechcrunch />,
       },
@@ -53,35 +53,35 @@ const routes = [
   },
   
   {
-    path: "/",
+    path: "college-magazine/Writings",
     name: "Writings",
     icon: <FaPenNib />,
     exact: true,
     subRoutes: [
       {
-        path: "/Writings/Poems",
+        path: "college-magazine/Writings/Poems",
         name: "Poem ",
         icon: <GoPrimitiveDot />,
       },
       {
-        path: "/Writings/Articles",
+        path: "college-magazine/Writings/Articles",
         name: "Articles",
         icon: <GoPrimitiveDot />,
       },
       {
-        path: "/Writings/Nanotales",
+        path: "college-magazine/Writings/Nanotales",
         name: "Nanotales",
         icon: <GoPrimitiveDot />,
       },
       {
-        path: "/Writings/Stories",
+        path: "college-magazine/Writings/Stories",
         name: "Stories",
         icon: <GoPrimitiveDot />,
       },
     ],
   },
   {
-    path: "/AboutUs",
+    path: "college-magazine/AboutUs",
     name: "AboutUs",
     icon: <AiFillContacts />,
   },
