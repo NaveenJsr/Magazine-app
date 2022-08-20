@@ -1,12 +1,12 @@
 import React from 'react'
 import Card from './PageCompo/Card'
 
-function Sports() {
+function Stories() {
   return (
     <div className='page-style'>
       <div className='home_container'>
         <div className='Card-heading'>
-          <h3>Sports</h3>
+          <h3>Stories</h3>
         </div>
         <div className='home_row'>
         <Card 
@@ -91,4 +91,4 @@ function Sports() {
   )
 }
 
-export default Sports
+export default Stories
