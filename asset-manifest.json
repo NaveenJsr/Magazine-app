@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/college-magazine/static/css/main.d4c526c1.css",
+    "main.js": "/college-magazine/static/js/main.b012ccc2.js",
+    "static/js/787.11347c24.chunk.js": "/college-magazine/static/js/787.11347c24.chunk.js",
+    "static/media/cgu-logo.png": "/college-magazine/static/media/cgu-logo.26a8dd3cf0d175ed3c3b.png",
+    "static/media/bracket2.png": "/college-magazine/static/media/bracket2.3dc85740c876658deb7e.png",
+    "static/media/bracket1.png": "/college-magazine/static/media/bracket1.21f72ee4838ea69fd6f3.png",
+    "index.html": "/college-magazine/index.html",
+    "main.d4c526c1.css.map": "/college-magazine/static/css/main.d4c526c1.css.map",
+    "main.b012ccc2.js.map": "/college-magazine/static/js/main.b012ccc2.js.map",
+    "787.11347c24.chunk.js.map": "/college-magazine/static/js/787.11347c24.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4c526c1.css",
+    "static/js/main.b012ccc2.js"
+  ]
+}
